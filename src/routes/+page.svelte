@@ -1,12 +1,13 @@
 <div class="container">
     <header class="site-header">
-        <img class="logo" src="images/Valion-Logo_Dark-Mountains_128x.png" alt="V logo on pink mountain background">
+        <img class="site-logo" src="images/Valion-Logo_Dark-Mountains_128x.png" alt="V logo on pink mountain background">
+        <span class="site-title">Jeremy Kennard</span>
     </header>
 
     <main class="site-content">
         <header class="page-header">
-            <h1 class="page-title">Hey, I'm Jeremy.</h1>
-            <span class="page-subtitle">Undergraduate computer science student, software and security enthusiast, audiovisual fanatic, creative thinker, challenger; pseudonymously known as Valion</span>
+            <h1 class="page-title">Hello.</h1>
+            <span class="page-subtitle">My name is Jeremy. I enjoy learning and building, especially in the domains of software, security, language, and art.</span>
         </header>
 
         <section class="page-content">
@@ -19,23 +20,12 @@
                 <li>publish some music, hopefully in a variety of genres;</li>
                 <li>post about anything that interests me.</li>
             </ul>
-            <h2>Work</h2>
-            <p>In the meantime, feel free to take a peek at some of my projects:</p>
-            <ul>
-                <li><a href="https://avilon.org" target="_blank">Avilon</a> - my eventual creative tech studio</li>
-                <li><a href="https://neu.systems" target="_blank">Neu</a> - systems for a new era of computing</li>
-                <li><a href="https://demo.valion.me/stratum-theme" target="_blank">Stratum</a> - a simple flat-file blog theme</li>
-            </ul>
-            <p>You can view more work on my <a href="https://github.com/iamvalion" target="_blank">GitHub</a>.</p>
         </section>
 
         <footer class="page-footer">
             <nav class="social-links">
                 <a class="github-link" href="https://github.com/iamvalion" target="_blank"><i class="fa-brands fa-github"></i></a> |
-                <a class="dribbble-link" href="https://dribbble.com/iamvalion" target="_blank"><i class="fa-brands fa-dribbble"></i></a> |
-                <a class="linkedin-link" href="https://linkedin.com/in/iamvalion" target="_blank"><i class="fa-brands fa-linkedin"></i></a> |
-                <a class="twitter-link" href="https://twitter.com/iamvalion" target="_blank"><i class="fa-brands fa-twitter"></i></a> |
-                <a class="instagram-link" href="https://instagram.com/iamvalion" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a class="linkedin-link" href="https://linkedin.com/in/iamvalion" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </nav>
         </footer>
     </main>

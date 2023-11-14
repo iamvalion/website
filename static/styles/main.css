@@ -53,7 +53,7 @@ Page Rules
 html {
     height: 100%;
     overflow-y: scroll;
-    background-color: var(--dark-color-3);
+    background-color: black;
 }
 
 body {
@@ -81,7 +81,8 @@ Page Layout
 div.container {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1080px;
     height: 100%;
 }
 
@@ -90,10 +91,24 @@ Site Header
 */
 
 header.site-header {
-    display: inline-block;
-    margin: auto;
-    max-width: 540px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
     padding: 24px;
+}
+
+img.site-logo {
+    display: inline-block;
+    width: 48px;
+    border-radius: 32px;
+}
+
+span.site-title {
+    display: inline-block;
+    font-size: 24px;
+    text-transform: uppercase;
 }
 
 /*
@@ -102,8 +117,6 @@ Site Content
 
 main.site-content {
     display: inline-block;
-    margin: auto;
-    max-width: 540px;
     padding: 0 24px;
 }
 
@@ -112,16 +125,13 @@ Site Footer
 */
 
 footer.site-footer {
-    margin: auto;
     display: inline-block;
-    max-width: 540px;
     padding: 24px;
 }
 
 p.copyright-text {
     margin: 0;
     font-size: small;
-    text-align: center;
 }
 
 /*
@@ -130,26 +140,17 @@ Page Header
 
 header.page-header {
     padding: 24px 0 32px 0;
-    text-align: center;
-}
-
-img.logo {
-    margin: auto;
-    display: block;
-    width: 64px;
-    border-radius: 32px;
 }
 
 h1.page-title {
     margin-top: 0;
-    text-align: center;
+    font-size: 72px;
     font-weight: bolder;
 }
 
 span.page-subtitle {
     margin-bottom: 0;
     display: block;
-    text-align: center;
     font-weight: 500;
 }
 
@@ -167,11 +168,6 @@ Page Footer
 
 footer.page-footer {
     padding: 24px 0;
-    text-align: center;
-}
-
-nav.social-links {
-    text-align: center;
 }
 
 
@@ -376,10 +372,6 @@ div.card {
     padding: 8px 24px;
 }
 
-.card-title {
-    text-align: center;
-}
-
 img.card-header-image {
     width: 100%;
     border-radius: 4px 8px 0 0;
@@ -495,7 +487,6 @@ figcaption {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
     font-size: 12px;
-    text-align: center;
 }
 
 
@@ -802,7 +793,6 @@ embed, object, iframe, canvas {
 div#noscript-error {
     padding: 8px 24px;
     background: var(--red-color-2);
-    text-align: center;
     color: var(--dark-color-3);
 }
 

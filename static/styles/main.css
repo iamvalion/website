@@ -79,10 +79,11 @@ Page Layout
 */
 
 div.container {
+    margin: auto;
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 1080px;
+    max-width: 540px;
     height: 100%;
 }
 
